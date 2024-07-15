@@ -17,6 +17,12 @@ app.use(express.urlencoded({ extended: true }));
 app.use(`/api/users`, userRoutes);
 app.use(`/api/items`, itemRoutes);
 
+app.get("/", (req, res) => {
+  return res.status(200).json({
+    message: "Server is running",
+  });
+});
+
 app.use("*", (req, res) => {
   return res.status(200).json({
     message: "invalid path",
