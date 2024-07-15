@@ -51,7 +51,7 @@ npm run dev
      
 ## Folder structure
 
-
+```
 server/
 ├── node_modules/
 ├── src/ 
@@ -78,3 +78,4 @@ server/
 ├── package.json                    # NPM package configuration
 ├── README.md                       # Project README file
 ├── .env                            # Environment variables
+```
