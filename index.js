@@ -1,9 +1,9 @@
 import express from "express";
 import { config } from "dotenv";
 import cors from "cors";
-import { connectDB } from "./config/db.js";
-import userRoutes from "./routes/userRoutes.js";
-import itemRoutes from "./routes/itemRoutes.js";
+import userRoutes from "./src/routes/userRoutes.js";
+import itemRoutes from "./src/routes/itemRoutes.js";
+import { connectDB } from "./src/config/db.js";
 
 config();
 connectDB();
