@@ -56,24 +56,25 @@ server/
 ├── node_modules/
 ├── src/ 
 │    ├── config/
-│    │   ├── db.js
+│    │   ├── db.js                  # Database connection configuration
 │    ├── controllers/
-│    │   ├── userController.js
-│    │   ├── itemController.js
+│    │   ├── userController.js      # User controller logic
+│    │   ├── itemController.js      # Item controller logic
 │    ├── middlewares/
-│    │   ├── authMiddleware.js
+│    │   ├── authMiddleware.js      # Authentication middleware
 │    ├── models/
-│    │   ├── User.js
-│    │   ├── Item.js
+│    │   ├── User.js                # User model schema
+│    │   ├── Item.js                # Item model schema
 │    ├── routes/
-│    │   ├── userRoutes.js
-│    │   ├── itemRoutes.js
+│    │   ├── userRoutes.js          # User routes
+│    │   ├── itemRoutes.js          # Item routes
 │    ├── utils/
-│    │   ├── generateToken.js
-│    ├── server.js
-├── .env
-├── .gitignore
-├── LICENSE
-├── package-lock.json
-├── package.json
-├── README.md
+│    │   ├── generateToken.js       # JWT token generation
+│    ├── server.js                  # Environment variables
+├── .env                            # NPM package configuration
+├── .gitignore                      # Git ignore file
+├── LICENSE                         # License
+├── package-lock.json               # NPM package configuration mete data
+├── package.json                    # NPM package configuration
+├── README.md                       # Project README file
+├── .env                            # Environment variables
